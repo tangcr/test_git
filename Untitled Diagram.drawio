@@ -1,26 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:17:33.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ssh_K73yN_dWEVgdyAQ9" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:54:32.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kjBWWg4PXcix2MXI27DY" version="20.0.1" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="MPIDhisfYT2cqplgsXPO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-1" target="MPIDhisfYT2cqplgsXPO-2">
+        <object label="" id="MPIDhisfYT2cqplgsXPO-1">
+          <mxCell style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="1">
+            <mxGeometry x="935" y="530" width="110" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;strokeColor=#006658;fontColor=#5C5C5C;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-1" target="MPIDhisfYT2cqplgsXPO-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="880" as="sourcePoint" />
+            <mxPoint x="990" y="440" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-11" value="websocket推送/订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#5C5C5C;" vertex="1" connectable="0" parent="MPIDhisfYT2cqplgsXPO-9">
+          <mxGeometry x="-0.0635" y="-2" relative="1" as="geometry">
+            <mxPoint x="-60" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-16" value="server(服务器端)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="30" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-36" value="" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="390" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-39" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;rounded=0;fontColor=#5C5C5C;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="936.19" y="166" width="97.75" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-45" value="openresty代理服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#5C5C5C;strokeWidth=13;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1019.99" y="70" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-47" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-46" target="MPIDhisfYT2cqplgsXPO-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPIDhisfYT2cqplgsXPO-1" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.thin_client;" vertex="1" parent="1">
-          <mxGeometry x="320" y="850" width="110" height="110" as="geometry" />
+        <mxCell id="MPIDhisfYT2cqplgsXPO-62" value="websocket推送/订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#5C5C5C;" vertex="1" connectable="0" parent="MPIDhisfYT2cqplgsXPO-47">
+          <mxGeometry x="-0.1858" y="-4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MPIDhisfYT2cqplgsXPO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-2" target="MPIDhisfYT2cqplgsXPO-1">
+        <mxCell id="MPIDhisfYT2cqplgsXPO-46" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.xenclient;rounded=0;labelBackgroundColor=default;fontSize=15;fontColor=#5C5C5C;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="470" y="178.62" width="121" height="102.38" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-52" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.537;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-49" target="MPIDhisfYT2cqplgsXPO-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPIDhisfYT2cqplgsXPO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-2" target="MPIDhisfYT2cqplgsXPO-1">
+        <mxCell id="MPIDhisfYT2cqplgsXPO-55" value="websocket推送/订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#5C5C5C;" vertex="1" connectable="0" parent="MPIDhisfYT2cqplgsXPO-52">
+          <mxGeometry x="-0.1197" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-49" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cell_phone;rounded=0;labelBackgroundColor=default;fontSize=15;fontColor=#5C5C5C;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="197" width="35" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-51" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="MPIDhisfYT2cqplgsXPO-50" target="MPIDhisfYT2cqplgsXPO-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPIDhisfYT2cqplgsXPO-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;" vertex="1" parent="1">
-          <mxGeometry x="540" y="550" width="110.5" height="130" as="geometry" />
+        <mxCell id="MPIDhisfYT2cqplgsXPO-56" value="websocker推送/订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#5C5C5C;" vertex="1" connectable="0" parent="MPIDhisfYT2cqplgsXPO-51">
+          <mxGeometry x="-0.2541" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="9" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MPIDhisfYT2cqplgsXPO-6" value="client(客户端)" style="whiteSpace=wrap;html=1;labelBorderColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="320" y="970" width="120" height="60" as="geometry" />
+        <mxCell id="MPIDhisfYT2cqplgsXPO-50" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.browser;rounded=0;labelBackgroundColor=default;fontSize=15;fontColor=#5C5C5C;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="950.69" y="-170" width="78.62" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-57" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;规则服务器引擎端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#5C5C5C;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="895.07" y="640" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-58" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;采集器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#5C5C5C;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="375" y="200.01" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-59" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;移动端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#5C5C5C;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="205" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPIDhisfYT2cqplgsXPO-60" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;web浏览器&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#5C5C5C;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="920.07" y="-220" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
